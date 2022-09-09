@@ -1,0 +1,88 @@
+    1  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    2  sudo dnf install git-all
+    3  git --version
+    4  cd ~/Desktop
+    5  mkdir worksheet1
+    6  cd worksheet1/
+    7  history > cmds.log
+    8  touch cmds.log
+    9  ls
+   10  git init
+   11  git status
+   12  git add cmds.log
+   13  git status
+   14  git commit -m "first"
+   15   git config --global user.email "duguoman@outlook.com"
+   16  git commit -m "first"
+   17  git config --global user.email "GGGGMMMM"
+   18  git commit -m "first COMMIT"
+   19  git status
+   20  git init
+   21  git commit -m "first COMMIT"
+   22  git config --global user.email "duguoman@outlook.com"
+   23  git config --global user.name"GGGGMMMM"
+   24   git commit -m "first COMMIT"
+   25  git config --global user.email "GUOMAN.DU@SJSU.EDU"
+   26  git commit -m "first COMMIT"
+   27  git config --global user.email "duguoman@outlook.com"
+   28  git config --global user.name"GGGGMMMM"
+   29  git config --list
+   30  git config --global user.name"GGGGMMMM"
+   31  git config --list
+   32  git commit -m "first COMMIT"
+   33  Omit --global
+   34  git config --global user.email "guoman.du@sjsu.edu"
+   35  git config --list
+   36  git commit
+   37  git config --global user.name"guoman"
+   38  git config --list
+   39  git config --global user.name
+   40  git config --list
+   41  git config --global user.name"guoman"
+   42  ssh
+   43  wget www.github.com
+   44  git commit
+   45  $ git config --global user.name "dzou"
+   46  git config --global user.name "dzou"
+   47  git config --global user.email "guoman.du@sjsu.edu"
+   48  git config --global --list
+   49  git commit
+   50  git --version
+   51  git status
+   52  mkdir ws1
+   53  cd ws1/
+   54  git init
+   55  history > cmds.log
+   56  touch cmds.log
+   57  ls
+   58  git status
+   59  git add cmds.log
+   60  git status
+   61  git commit -m"first"
+   62  git remote add origin git@github.com:GGGGMMMM/worksheet1.git
+   63  git branch -M main
+   64  git push -u origin main
+   65  git remote add origin git@github.com:GGGGMMMM/worksheet1.git
+   66  git branch -M main
+   67  git push -u origin main
+   68  git remote add origin git@github.com:GGGGMMMM/worksheet1.git
+   69  git branch -M main
+   70  git push -u origin main
+   71  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+   72  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
+   73  grep verified *amazon_reviews_us_Books_v1_02*
+   74  grep unverified *amazon_reviews_us_Books_v1_02*
+   75  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1
+   76  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1
+   77  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
+   78  cat count.txt
+   79  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
+   80  cat count.txt
+   81  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
+   82  count count.txt
+   83  cat count.txt
+   84  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
+   85   cat count.txt
+   86  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
+   87  cat count.txt
+   88  history>cmds.log
