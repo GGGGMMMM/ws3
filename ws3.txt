@@ -1,0 +1,8 @@
+[guoman@sjsu ~]$ cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2|sort|uniq -c|sort|tail -n 3
+   9964 50732546
+    996 51147790
+    997 50068216
+[guoman@sjsu ~]$ cat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|tail -n 3
+      9 B00015PPJU
+      9 B0002ST9DY
+      9 B0006BD94W
